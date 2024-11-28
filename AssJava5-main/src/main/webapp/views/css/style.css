@@ -1,0 +1,55 @@
+/* Center icon in button */
+.btn-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+/* Center icon in circle button */
+.btn-icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Sticky header of table */
+table.table-sticky thead tr:nth-child(1) th{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Showing badminton court */
+img.hinhSan {
+    max-width: none;
+    max-height: none;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Text and line */
+.text-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-line > :first-child {
+    flex-grow: 0;
+}
+
+.text-line > :nth-child(2) {
+    flex-grow: 1;
+}
+  
+.divider {
+    height: 0.8px;
+    background-color: black;
+    opacity: .25;
+}
